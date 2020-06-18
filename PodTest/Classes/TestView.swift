@@ -8,7 +8,7 @@
 import Foundation
 
 /// 定义全局 log 输出函数
-func CMLog<T>(_ message: T?, file: String = #file, funcName: String = #function, lineNum: Int = #line){
+open func CMLog<T>(_ message: T?, file: String = #file, funcName: String = #function, lineNum: Int = #line){
     
     #if DEBUG
     let file = (file as NSString).lastPathComponent;
