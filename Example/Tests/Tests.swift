@@ -1,10 +1,11 @@
 // https://github.com/Quick/Quick
 
-import Quick
+import QuickLook
 import Nimble
 import PodTest
 
 class TableOfContentsSpec: QuickSpec {
+    
     override func spec() {
         describe("these will fail") {
 
